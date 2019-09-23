@@ -35,10 +35,35 @@
   background: #5E4485;
   border: 2px solid #FFF;
 }
-
+.container{
+  margin: 4% auto;
+}
+#icon{
+  max-width: 200px;
+  margin: 1% auto;
+}
+footer{
+  width: 100%;
+  background-color: #5E4485;
+  padding: 5%;
+  color: #FFF;
+}
+.fa{
+  padding: 15px;
+  font-size: 30px;
+  color: #FFF;
+}
+.fa:hover {
+  text-decoration: none;
+}
+}
 @media query (max-width: 600px) {
   .carousel-caption {
     display: none;
   }
+#icon{
+  max-width: 150px;
 }
+h2 {
+  font-size: 1.7em;
 }
