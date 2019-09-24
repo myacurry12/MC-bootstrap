@@ -50,12 +50,19 @@ footer{
 }
 .fa{
   padding: 15px;
-  font-size: 30px;
+  font-size: 25px;
   color: #FFF;
 }
 .fa:hover {
+  color:#D5D5D5;
   text-decoration: none;
 }
+@media query (max-width: 900px) {
+  .fa{
+    font-size: 20px;
+    padding: 10px;
+  }
+
 }
 @media query (max-width: 600px) {
   .carousel-caption {
